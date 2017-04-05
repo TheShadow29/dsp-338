@@ -13,4 +13,4 @@ delta_2 = 0.1;
 [N,omega_c] = butterworth_lpf_specifications(omega_lp,omega_ls,delta_1,delta_2);
 s = tf('s');
 [H_s_L] = get_butterworth_tf(N,omega_c,s);
-[H_s_bp] = get_bandpass_ct(H_s_L,s,B,omega_0);
+[H_s_bp] = get_bandpass_ct(N,H_s_L,s,B,omega_0);

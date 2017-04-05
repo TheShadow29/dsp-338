@@ -13,5 +13,5 @@ delta_2 = 0.1;
 [N,epsilon] = chebyshev_lpf_specifications(omega_lp,omega_ls,delta_1,delta_2);
 s = tf('s');
 G_sl = get_chebyshev_tf(N,epsilon,s,omega_lp);
-G_bs = get_bandstop_ct(G_sl,s,B,omega_0);
+G_bs = get_bandstop_ct(N,G_sl,s,B,omega_0);
 
