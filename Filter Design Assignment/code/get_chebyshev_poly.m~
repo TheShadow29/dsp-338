@@ -1,0 +1,13 @@
+function [Cn] = get_chebyshev_poly(N,s)
+    sys_N = 1;
+    sys_N_1 = s;
+    
+    if
+    
+    while(n1)
+        
+    end
+    
+    
+
+end
