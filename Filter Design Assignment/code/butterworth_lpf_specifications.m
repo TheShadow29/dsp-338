@@ -10,7 +10,7 @@ function [N,omega_c] = butterworth_lpf_specifications(omega_lp,omega_ls,delta_1,
     omega_c1 = omega_lp/D1_n;
     omega_c2 = omega_ls/D2_n;
     
-%     omega_c = mean([omega_c1,omega_c2]);
-    omega_c = sqrt(omega_c1 * omega_c2);
+    omega_c = mean([omega_c1,omega_c2]);
+%     omega_c = sqrt(omega_c1 * omega_c2);
     
 end
