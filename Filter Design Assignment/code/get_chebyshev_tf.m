@@ -7,7 +7,9 @@ function [G_sl] = get_chebyshev_tf(N,epsilon,s,omega_lp)
     z1 = [];
     [num,den] = zp2tf(z1,p1,1);
     G_sl = tf(num,den);
-    k1 = evalfr(G_sl,0);
+    omega_max = omega_lp*cos(pi/(2*N));
+    k1 = evalfr(G_sl,1i*omega_max);
+%     k11 = sqrt(1+epsilon^2);
     G_sl = G_sl/k1;
     
 end

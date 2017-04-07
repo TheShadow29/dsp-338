@@ -31,7 +31,7 @@ function [H_s_bp,H_z_bp] = get_bandpass_ct(N,H_s_L,s,B,omega_0)
         H_s_bp = H_s_bp/sys_tmp2;
         H_z_bp = H_z_bp/z_tmp2;
     end
-    k1 = evalfr(H_s_bp,omega_0);
+    k1 = evalfr(H_s_bp,1i*omega_0);
     H_s_bp = H_s_bp/k1;
     w0 = 2*atan(omega_0);
     k2 = evalfr(H_z_bp,exp(-1i*w0));
