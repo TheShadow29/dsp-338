@@ -1,5 +1,5 @@
 %Frequencies all in kHz
-sampl_freq = 90;
+sample_frq = 90;
 B_l = 7.7;
 B_h = 10.7;
 transition_band = 1;
@@ -13,4 +13,5 @@ delta_2 = 0.1;
 [N,epsilon] = chebyshev_lpf_specifications(omega_lp,omega_ls,delta_1,delta_2);
 s = tf('s');
 G_sl = get_chebyshev_tf(N,epsilon,s,omega_lp);
-[G_bs,G_z_bs] = get_bandstop_ct(N,epsilon,G_sl,s,B,omega_0);
+[G_bs,G_z_bs,G_z_bs_actual] = get_bandstop_ct(N,epsilon,G_sl,s,B,omega_0);
+plot_Hz(G_z_bs,wp1,wp2,ws1,ws2);

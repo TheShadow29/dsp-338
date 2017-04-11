@@ -6,7 +6,7 @@
 \usepackage{pdflscape}
 \usepackage{listings}
 \usepackage{hyperref}
-\usepackage{titlesec}
+% \usepackage{titlesec}
 \usepackage{float}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -34,52 +34,163 @@
 \tableofcontents
 \newpage
 \section{First Filter Specifications}
-\begin{enumerate}
-\item Un-normalized Discrete Time Filter Specifications:
-  \begin{itemize}
-  \item Sampling Frequency ($f_s$) = 140kHz
-  \item $B_L = 9.4 kHz$
-  \item $B_H = 14.4 kHz$
-  \item Monotonic Passband (Butterworth)
-  \end{itemize}
-\item Normalized Digital Filter Specifications
-  \begin{itemize}
-  \item $\omega_{p1} = \frac{9.4}{140}2\pi = 0.4219$
-  \item $\omega_{p2} = \frac{14.4}{140}2\pi = 0.6463$
-  \item $\omega_{s1} = \frac{8.4}{140}2\pi = 0.3770$
-  \item $\omega_{s2} = \frac{15.4}{140}2\pi = 0.6912$
-  \end{itemize}
-\item Analog Filter Specifications
-  \begin{itemize}
-  \item $\Omega_{p1} = tan(\frac{\omega_{p1}}{2}) = 0.2141$ 
-  \item $\Omega_{p2} = tan(\frac{\omega_{p2}}{2}) = 0.3349$
-  \item $\Omega_{s1} = tan(\frac{\omega_{s1}}{2}) = 0.1908$
-  \item $\Omega_{s2} = tan(\frac{\omega_{s2}}{2}) = 0.3600$
-  \end{itemize}
-\item Frequency transformation to be employed
-  \begin{equation}
-    \label{eq:1}
-    s_L = \frac{s^2 + \Omega_0^2}{Bs}
-  \end{equation}
-  with $B = \Omega_{p2} - \Omega_{p1} = 0.1208$ and $\Omega_0 = \sqrt{\Omega_{p1}\Omega_{p2}} = 0.2678$
+\subsection{Un-normalized Discrete Time Filter Specifications}
+% \begin{enumerate}
+% \item 
+\begin{itemize}
+\item Sampling Frequency ($f_s$) = 140kHz
+\item $B_L = 9.4 kHz$
+\item $B_H = 14.4 kHz$
+\item Monotonic Passband (Butterworth)
+\end{itemize}
+\subsection{Normalized Digital Filter Specifications}
+\begin{itemize}
+\item $\omega_{p1} = \frac{9.4}{140}2\pi = 0.4219$
+\item $\omega_{p2} = \frac{14.4}{140}2\pi = 0.6463$
+\item $\omega_{s1} = \frac{8.4}{140}2\pi = 0.3770$
+\item $\omega_{s2} = \frac{15.4}{140}2\pi = 0.6912$
+\end{itemize}
+\subsection{Analog Filter Specifications}
+\begin{itemize}
+\item $\Omega_{p1} = tan(\frac{\omega_{p1}}{2}) = 0.2141$ 
+\item $\Omega_{p2} = tan(\frac{\omega_{p2}}{2}) = 0.3349$
+\item $\Omega_{s1} = tan(\frac{\omega_{s1}}{2}) = 0.1908$
+\item $\Omega_{s2} = tan(\frac{\omega_{s2}}{2}) = 0.3600$
+\end{itemize}
+\subsection{ Frequency transformation to be employed}
+\begin{equation}
+  \label{eq:1}
+  s_L = \frac{s^2 + \Omega_0^2}{Bs}
+\end{equation}
+with $B = \Omega_{p2} - \Omega_{p1} = 0.1208$ and $\Omega_0 = \sqrt{\Omega_{p1}\Omega_{p2}} = 0.2678$
 \\  This translates to
-  \begin{equation}
-    \label{eq:2}
-    \Omega_{L} = \frac{\Omega^2 - \Omega_0^2}{B\Omega}
-  \end{equation}
-\item Frequency transformed lowpass analog filter specifications
-  \\From \ref{eq:2}
-  \begin{itemize}
-  \item $\Omega_{Lp} = 1$
-  \item $\Omega_{Ls} = min(\Omega_{Ls1},\Omega_{Ls2}) = 1.3321$
-  \end{itemize}
+\begin{equation}
+  \label{eq:2}
+  \Omega_{L} = \frac{\Omega^2 - \Omega_0^2}{B\Omega}
+\end{equation}
+\subsection{Frequency transformed lowpass analog filter specifications}
+From \ref{eq:2}
+\begin{itemize}
+\item $\Omega_{Lp} = 1$
+\item $\Omega_{Ls} = min(\Omega_{Ls1},\Omega_{Ls2}) = 1.3321$
+\end{itemize}
 
-\item The analog Low pass Transfer Function
-  
+\subsection{The analog Low pass Transfer Function}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.2\textwidth, height=3cm]{images/Analog_but_lp_tf}
+  \caption{Analog Low Pass Transfer Function }
+  \label{fig:1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{images/Bodeplot_but_lp}
+  \caption{Analog Low Pass Bode plot}
+  \label{fig:2}
+\end{figure}
+
+\subsection{The Analog BandPass Transfer Function}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.2\textwidth,height=5cm]{images/Analog_but_bp_tf}
+  \caption{Analog Band Pass Transfer Function}
+  \label{fig:3}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{images/Bodeplot_but_bp}
+  \caption{Analog Band Pass Bode Plot}
+  \label{fig:4}  
+\end{figure}
+
+\subsection{The Discrete Time Filter Transfer Function}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1.2\textwidth,height=10cm]{images/Discrete_bp_tf}
+  \caption{Discrete Time Band Pass Transfer Function}
+  \label{fig:5}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{images/Freqz_digital_bp}
+  \caption{Frequency Magnitude Response of Discrete Time Band Pass Filter}
+  \label{fig:6}
+\end{figure}
+
+\subsection{Direct Form 2 Realization of the Discrete Filter}
+\subsection{FIR Filter Transfer Function to get the same specifications}
+Given that $\delta = 0.1$, we get $$A = -20log_{10}(\delta) = -20log_{10}(0.1) = 20$$
+For  $A < 21$ we get $\alpha = 0$ and hence $\beta = 0$.
+Also we have $\Delta\omega = w_s - w_p$
+We then compute $$N \ge \frac{A-8}{2*2.285*\Delta\omega} = 58.507$$
+Therefore we choose $$N = 59$$.
+
+But with $N = 59$ the resulting FIR doesn't meet all the specifications. Here is the plot for the same
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{images/Band_pass_fir_order_59}
+  \caption{Order 59 FIR Band Pass}
+  \label{fig:7}
+\end{figure}
+
+On increasing N to $N = 63$, we get an FIR that meets the specifications.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{images/Band_pass_fir_order_63}
+  \caption{Order 63 FIR Band Pass}
+  \label{fig:8}
+\end{figure}
+
+$H_{fir\_bp} = 0.010699z^{-59} +0.0099216z^{-58} +0.0061769z^{-57} +0.00067888z^{-56} +-0.0047345z^{-55} +-0.0083073z^{-54} +-0.0090412z^{-53} +-0.0070586z^{-52} +-0.0035005z^{-51} +1.5549e-17z^{-50} +0.0020437z^{-49} +0.0020753z^{-48} +0.0006074z^{-47} +-0.0010474z^{-46} +-0.0014292z^{-45} +0.00031922z^{-44} +0.0039434z^{-43} +0.0080615z^{-42} +0.010683z^{-41} +0.010067z^{-40} +0.0055652z^{-39} +-0.0019308z^{-38} +-0.010166z^{-37} +-0.016293z^{-36} +-0.017965z^{-35} +-0.014297z^{-34} +-0.0062993z^{-33} +0.0034278z^{-32} +0.011658z^{-31} +0.015779z^{-30} +0.014805z^{-29} +0.009742z^{-28} +0.0031172z^{-27} +-0.0021396z^{-26} +-0.0040068z^{-25} +-0.0023031z^{-24} +0.0011925z^{-23} +0.003537z^{-22} +0.0020435z^{-21} +-0.0042678z^{-20} +-0.013846z^{-19} +-0.022858z^{-18} +-0.026534z^{-17} +-0.021167z^{-16} +-0.0059818z^{-15} +0.01592z^{-14} +0.038073z^{-13} +0.05258z^{-12} +0.052901z^{-11} +0.036481z^{-10} +0.0062323z^{-9} +-0.029837z^{-8} +-0.060854z^{-7} +-0.07654z^{-6} +-0.070733z^{-5} +-0.04374z^{-4} +-0.0026197z^{-3} +0.040796z^{-2} +0.073555z^{-1} +0.085714z^{0} +0.073555z^{1} +0.040796z^{2} +-0.0026197z^{3} +-0.04374z^{4} +-0.070733z^{5} +-0.07654z^{6} +-0.060854z^{7} +-0.029837z^{8} +0.0062323z^{9} +0.036481z^{10} +0.052901z^{11} +0.05258z^{12} +0.038073z^{13} +0.01592z^{14} +-0.0059818z^{15} +-0.021167z^{16} +-0.026534z^{17} +-0.022858z^{18} +-0.013846z^{19} +-0.0042678z^{20} +0.0020435z^{21} +0.003537z^{22} +0.0011925z^{23} +-0.0023031z^{24} +-0.0040068z^{25} +-0.0021396z^{26} +0.0031172z^{27} +0.009742z^{28} +0.014805z^{29} +0.015779z^{30} +0.011658z^{31} +0.0034278z^{32} +-0.0062993z^{33} +-0.014297z^{34} +-0.017965z^{35} +-0.016293z^{36} +-0.010166z^{37} +-0.0019308z^{38} +0.0055652z^{39} +0.010067z^{40} +0.010683z^{41} +0.0080615z^{42} +0.0039434z^{43} +0.00031922z^{44} +-0.0014292z^{45} +-0.0010474z^{46} +0.0006074z^{47} +0.0020753z^{48} +0.0020437z^{49} +1.5549e-17z^{50} +-0.0035005z^{51} +-0.0070586z^{52} +-0.0090412z^{53} +-0.0083073z^{54} +-0.0047345z^{55} +0.00067888z^{56} +0.0061769z^{57} +0.0099216z^{58} +0.010699z^{59}$
+
+
+
+\section{Second Filter Specifications}
+% \begin{enumerate}
+\subsection{Un-normalized Discrete Time Filter Specifications}
+\begin{itemize}
+\item Sampling Frequency ($f_s$) = 140kHz
+\item $B_L = 7.7 kHz$
+\item $B_H = 10.7 kHz$
+\item Monotonic Passband (Butterworth)
+\end{itemize}
+\subsection{Normalized Digital Filter Specifications}
+\begin{itemize}
+\item $\omega_{p1} = \frac{7.7}{90}2\pi = 0.3007$
+\item $\omega_{p2} = \frac{10.7}{90}2\pi = 0.5251$
+\item $\omega_{s1} = \frac{6.7}{90}2\pi = 0.3456$
+\item $\omega_{s2} = \frac{11.7}{90}2\pi = 0.4802$
+\end{itemize}
+\subsection{Analog Filter Specifications}
+\begin{itemize}
+\item $\Omega_{p1} = tan(\frac{\omega_{p1}}{2}) = 0.1515$ 
+\item $\Omega_{p2} = tan(\frac{\omega_{p2}}{2}) = 0.2688$
+\item $\Omega_{s1} = tan(\frac{\omega_{s1}}{2}) = 0.1745$
+\item $\Omega_{s2} = tan(\frac{\omega_{s2}}{2}) = 0.2448$
+\end{itemize}
+\subsection{Frequency transformation to be employed}
+\begin{equation}
+  \label{eq:3}
+  s_L = \frac{s^2 + \Omega_0^2}{Bs}
+\end{equation}
+with $B = \Omega_{p2} - \Omega_{p1} = 0.1208$ and $\Omega_0 = \sqrt{\Omega_{p1}\Omega_{p2}} = 0.2678$
+\\  This translates to
+\begin{equation}
+  \label{eq:4}
+  \Omega_{L} = \frac{\Omega^2 - \Omega_0^2}{B\Omega}
+\end{equation}
+\subsection{Frequency transformed lowpass analog filter specifications}
+From \ref{eq:4}
+\begin{itemize}
+\item $\Omega_{Lp} = 1$
+\item $\Omega_{Ls} = min(\Omega_{Ls1},\Omega_{Ls2}) = 1.3321$
+\end{itemize}
+
+\subsection{The analog Low pass Transfer Function}
+
 $$H_{analog}(s_L) = \frac{1}{0.4533 s^{11} + 3.423 s^{10} + 12.92 s^{9} + 32.07 s^{8} + 57.98 s^{7} + 80.04 s^{6} + 86.01 s^{5} + 71.95 s^{4}
-    + 45.95 s^{3} + 21.38 s^{2} + 6.539 s + 1}$$
-\end{enumerate}
-
+  + 45.95 s^{3} + 21.38 s^{2} + 6.539 s + 1}$$
+% \end{enumerate}
 
 \end{document}
 

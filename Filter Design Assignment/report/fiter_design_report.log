@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.11)  7 APR 2017 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.11)  11 APR 2017 08:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -539,25 +539,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
-\ttl@box=\box28
-\beforetitleunit=\skip44
-\aftertitleunit=\skip45
-\ttl@plus=\dimen121
-\ttl@minus=\dimen122
-\ttl@toksa=\toks19
-\titlewidth=\dimen123
-\titlewidthlast=\dimen124
-\titlewidthfirst=\dimen125
-)
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count109
-\float@exts=\toks20
-\float@box=\box29
-\@float@everytoks=\toks21
-\@floatcapt=\box30
+\float@exts=\toks19
+\float@box=\box28
+\@float@everytoks=\toks20
+\@floatcapt=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -565,13 +553,13 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen126
-\captionmargin@=\dimen127
-\captionwidth=\dimen128
-\caption@tempdima=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
 )
 \c@ContinuedFloat=\count110
 Package caption Info: float package is loaded.
@@ -585,7 +573,7 @@ Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -593,12 +581,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen133
+\@emptytoks=\toks21
+\ex@=\dimen128
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen134
+\pmbraise@=\dimen129
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -613,9 +601,9 @@ LaTeX Info: Redefining \overline on input line 297.
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box31
-\strutbox@=\box32
-\big@size=\dimen135
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen130
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count118
@@ -623,21 +611,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \dotsspace@=\muskip11
 \c@parentequation=\count120
 \dspbrk@lvl=\count121
-\tag@help=\toks23
+\tag@help=\toks22
 \row@=\count122
 \column@=\count123
 \maxfields@=\count124
-\andhelp@=\toks24
-\eqnshift@=\dimen136
-\alignsep@=\dimen137
-\tagshift@=\dimen138
-\tagwidth@=\dimen139
-\totwidth@=\dimen140
-\lineht@=\dimen141
-\@envbody=\toks25
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks26
+\andhelp@=\toks23
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks24
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -702,16 +690,16 @@ LaTeX Font Info:    ... okay on input line 31.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
-\scratchdimen=\dimen142
-\scratchbox=\box33
+\scratchdimen=\dimen137
+\scratchbox=\box32
 \nofMPsegments=\count126
 \nofMParguments=\count127
-\everyMPshowfont=\toks27
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count128
-\MPscratchDim=\dimen143
+\MPscratchDim=\dimen138
 \MPnumerator=\count129
 \makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks28
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -728,7 +716,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count131
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box33
 Package hyperref Info: Link coloring OFF on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -757,36 +745,206 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-Overfull \hbox (173.42719pt too wide) detected at line 80
+<images/Analog_but_lp_tf.png, id=105, 1150.2975pt x 126.4725pt>
+File: images/Analog_but_lp_tf.png Graphic file (type png)
+
+<use images/Analog_but_lp_tf.png>
+Package pdftex.def Info: images/Analog_but_lp_tf.png used on input line 81.
+(pdftex.def)             Requested size: 501.90242pt x 85.35945pt.
+
+Overfull \hbox (83.64874pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+<images/Bodeplot_but_lp.png, id=106, 979.40906pt x 518.6878pt>
+File: images/Bodeplot_but_lp.png Graphic file (type png)
+
+<use images/Bodeplot_but_lp.png>
+Package pdftex.def Info: images/Bodeplot_but_lp.png used on input line 87.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 87--88
+ [][] 
+ []
+
+[2] <images/Analog_but_bp_tf.png, id=120, 1285.80376pt x 273.02pt>
+File: images/Analog_but_bp_tf.png Graphic file (type png)
+
+<use images/Analog_but_bp_tf.png>
+Package pdftex.def Info: images/Analog_but_bp_tf.png used on input line 95.
+(pdftex.def)             Requested size: 501.89308pt x 142.26283pt.
+
+Overfull \hbox (83.6394pt too wide) in paragraph at lines 95--96
+ [][] 
+ []
+
+<images/Bodeplot_but_bp.png, id=121, 979.40906pt x 518.6878pt>
+File: images/Bodeplot_but_bp.png Graphic file (type png)
+
+<use images/Bodeplot_but_bp.png>
+Package pdftex.def Info: images/Bodeplot_but_bp.png used on input line 101.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 101--102
+ [][] 
+ []
+
+[3 <./images/Analog_but_lp_tf.png> <./images/Bodeplot_but_lp.png (PNG copy)> <.
+/images/Analog_but_bp_tf.png>]
+<images/Discrete_bp_tf.png, id=129, 1134.2375pt x 383.4325pt>
+File: images/Discrete_bp_tf.png Graphic file (type png)
+
+<use images/Discrete_bp_tf.png>
+Package pdftex.def Info: images/Discrete_bp_tf.png used on input line 109.
+(pdftex.def)             Requested size: 501.9044pt x 284.543pt.
+
+Overfull \hbox (83.65073pt too wide) in paragraph at lines 109--110
+ [][] 
+ []
+
+<images/Freqz_digital_bp.png, id=130, 979.40906pt x 518.6878pt>
+File: images/Freqz_digital_bp.png Graphic file (type png)
+
+<use images/Freqz_digital_bp.png>
+Package pdftex.def Info: images/Freqz_digital_bp.png used on input line 115.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+[4 <./images/Bodeplot_but_bp.png (PNG copy)> <./images/Discrete_bp_tf.png>]
+<images/Band_pass_fir_order_59.png, id=137, 979.40906pt x 518.6878pt>
+File: images/Band_pass_fir_order_59.png Graphic file (type png)
+
+<use images/Band_pass_fir_order_59.png>
+Package pdftex.def Info: images/Band_pass_fir_order_59.png used on input line 1
+31.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
+
+[5 <./images/Freqz_digital_bp.png (PNG copy)>]
+<images/Band_pass_fir_order_63.png, id=143, 979.40906pt x 518.6878pt>
+File: images/Band_pass_fir_order_63.png Graphic file (type png)
+
+<use images/Band_pass_fir_order_63.png>
+Package pdftex.def Info: images/Band_pass_fir_order_63.png used on input line 1
+39.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+
+Overfull \hbox (24.51166pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020437\OML/cmm/m/it/10 z[] 
+\OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020753\OML/cmm/m/it/10 z[
+] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0006074\OML/cmm/m/it/10 
+z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\O
+T1/cmr/m/n/10 0010474\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^
+@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0014292\OML/cmm/m/it/10 z[]
+ \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00031922\OML/cmm/m/it/10 
+z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (1.73381pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0039434\OML/cmm/m/it/10 z[] 
+\OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0080615\OML/cmm/m/it/10 z[
+] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010683\OML/cmm/m/it/10 z
+[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010067\OML/cmm/m/it/10 
+z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0055652\OML/cmm/m/it/1
+0 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :
+\OT1/cmr/m/n/10 0019308\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.84499pt too wide) in paragraph at lines 144--145
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010166\O
+ML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/
+cmm/m/it/10 :\OT1/cmr/m/n/10 016293\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/
+cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 017965\OML/cm
+m/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m
+/it/10 :\OT1/cmr/m/n/10 014297\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/
+m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0062993\OML/cmm/m/
+it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0034278\OML/cmm/
+m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.28943pt too wide) in paragraph at lines 144--145
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0040068\
+OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML
+/cmm/m/it/10 :\OT1/cmr/m/n/10 0023031\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\O
+ML/cmm/m/it/10 :\OT1/cmr/m/n/10 0011925\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0
+\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 003537\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 
+0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020435\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 
++ \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 004267
+8\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (12.84496pt too wide) in paragraph at lines 144--145
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 013846\O
+ML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/
+cmm/m/it/10 :\OT1/cmr/m/n/10 022858\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/
+cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 026534\OML/cm
+m/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m
+/it/10 :\OT1/cmr/m/n/10 021167\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/
+m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0059818\OML/cmm/m/
+it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 01592\OML/cmm/m/
+it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (5.0012pt too wide) in paragraph at lines 144--145
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020437\OML/cmm/m/it/10 z[] 
+\OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5549\OML/cmm/m/it/10 e \OM
+S/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 17\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS
+/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0035005\OML/
+cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm
+/m/it/10 :\OT1/cmr/m/n/10 0070586\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cm
+sy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0090412\OML/cmm
+/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/
+it/10 :\OT1/cmr/m/n/10 0083073\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+[6 <./images/Band_pass_fir_order_59.png (PNG copy)> <./images/Band_pass_fir_ord
+er_63.png (PNG copy)>] [7]
+Overfull \hbox (148.42715pt too wide) detected at line 192
 \OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) = []
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./fiter_design_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `fiter_design_report.out' has not changed.
-(rerunfilecheck)             Checksum: 4ACB98845D5A44590DFF8F602CB0F747;62.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+(rerunfilecheck)             Checksum: 3ECCC7AB1238D5382C33C253CD75D4DA;1608.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 9146 strings out of 493029
- 134237 string characters out of 6136234
- 238007 words of memory out of 5000000
- 12570 multiletter control sequences out of 15000+600000
- 9322 words of font info for 34 fonts, out of 8000000 for 9000
+ 8997 strings out of 493029
+ 133108 string characters out of 6136234
+ 235669 words of memory out of 5000000
+ 12387 multiletter control sequences out of 15000+600000
+ 9629 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,38p,258b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,39p,2126b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -797,11 +955,12 @@ t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb>
-Output written on fiter_design_report.pdf (2 pages, 115292 bytes).
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+
+Output written on fiter_design_report.pdf (8 pages, 276946 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

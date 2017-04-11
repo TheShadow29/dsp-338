@@ -1,1 +1,18 @@
 \BOOKMARK [1][-]{section.1}{First Filter Specifications}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Un-normalized Discrete Time Filter Specifications}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Normalized Digital Filter Specifications}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Analog Filter Specifications}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{ Frequency transformation to be employed}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Frequency transformed lowpass analog filter specifications}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.6}{The analog Low pass Transfer Function}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.7}{The Analog BandPass Transfer Function}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.8}{The Discrete Time Filter Transfer Function}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.9}{Direct Form 2 Realization of the Discrete Filter}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.10}{FIR Filter Transfer Function to get the same specifications}{section.1}% 11
+\BOOKMARK [1][-]{section.2}{Second Filter Specifications}{}% 12
+\BOOKMARK [2][-]{subsection.2.1}{Un-normalized Discrete Time Filter Specifications}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Normalized Digital Filter Specifications}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Analog Filter Specifications}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.4}{Frequency transformation to be employed}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.5}{Frequency transformed lowpass analog filter specifications}{section.2}% 17
+\BOOKMARK [2][-]{subsection.2.6}{The analog Low pass Transfer Function}{section.2}% 18

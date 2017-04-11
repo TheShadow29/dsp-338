@@ -26,7 +26,6 @@
     "pdflscape"
     "listings"
     "hyperref"
-    "titlesec"
     "float"
     "caption"
     "subcaption"
@@ -35,7 +34,17 @@
     "ra")
    (LaTeX-add-labels
     "eq:1"
-    "eq:2")
+    "eq:2"
+    "fig:1"
+    "fig:2"
+    "fig:3"
+    "fig:4"
+    "fig:5"
+    "fig:6"
+    "fig:7"
+    "fig:8"
+    "eq:3"
+    "eq:4")
    (LaTeX-add-bibliographies
     "ref"))
  :latex)
