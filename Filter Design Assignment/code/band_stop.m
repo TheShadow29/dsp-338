@@ -1,8 +1,12 @@
 %Frequencies all in kHz
+close all;
 sample_frq = 90;
 B_l = 7.7;
 B_h = 10.7;
 transition_band = 1;
+P = bodeoptions;
+P.MagScale = 'linear';
+P.MagUnits = 'abs';
 [wp1,wp2,ws1,ws2] = get_discrete_specifications(sample_frq,B_l,B_h,'bs');
 [omega_p1,omega_p2,omega_s1,omega_s2] = get_ct_specifications(wp1,wp2,ws1,ws2);
 B = omega_p2 - omega_p1;
@@ -13,5 +17,11 @@ delta_2 = 0.1;
 [N,epsilon] = chebyshev_lpf_specifications(omega_lp,omega_ls,delta_1,delta_2);
 s = tf('s');
 G_sl = get_chebyshev_tf(N,epsilon,s,omega_lp);
+figure;
+bodeplot(G_sl,P); title('Bodeplot for Low Pass Chebyshev G_{sl}');
 [G_bs,G_z_bs,G_z_bs_actual] = get_bandstop_ct(N,epsilon,G_sl,s,B,omega_0);
-plot_Hz(G_z_bs,wp1,wp2,ws1,ws2);
+figure;
+bodeplot(G_bs,P); title('Bodeplot for Band Stop Butterworth G_{s\_{bs}}');
+figure;
+plot_Hz(G_z_bs,wp1,wp2,ws1,ws2);title('Plot for Band Stop Digital Filter');
+[h_fir_n_bs,H_fir_bs,H_fir_z_bs,fir_order_bs] = get_fir('bs',delta_1,wp1,wp2,ws1,ws2);

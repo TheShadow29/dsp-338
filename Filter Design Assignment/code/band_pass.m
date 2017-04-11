@@ -28,7 +28,7 @@ plot_Hz(H_z_bp,wp1,wp2,ws1,ws2);title('Plot for Band Pass Digital Filter');
 % [H_z] = ct_to_dt_bp(H_s_bp);
 
 %%FIR
-[h_fir_n,H_fir,fir_order] = get_fir('bp',delta_1,wp1,wp2,ws1,ws2);
+[h_fir_n_bp,H_fir_bp,H_fir_z_bp,fir_order_bp] = get_fir('bp',delta_1,wp1,wp2,ws1,ws2);
 
 
 

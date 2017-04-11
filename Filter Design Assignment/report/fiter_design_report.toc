@@ -7,12 +7,16 @@
 \contentsline {subsection}{\numberline {1.6}The analog Low pass Transfer Function}{3}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7}The Analog BandPass Transfer Function}{3}{subsection.1.7}
 \contentsline {subsection}{\numberline {1.8}The Discrete Time Filter Transfer Function}{4}{subsection.1.8}
-\contentsline {subsection}{\numberline {1.9}Direct Form 2 Realization of the Discrete Filter}{5}{subsection.1.9}
-\contentsline {subsection}{\numberline {1.10}FIR Filter Transfer Function to get the same specifications}{5}{subsection.1.10}
-\contentsline {section}{\numberline {2}Second Filter Specifications}{7}{section.2}
-\contentsline {subsection}{\numberline {2.1}Un-normalized Discrete Time Filter Specifications}{7}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Normalized Digital Filter Specifications}{7}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Analog Filter Specifications}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Frequency transformation to be employed}{7}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Frequency transformed lowpass analog filter specifications}{8}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}The analog Low pass Transfer Function}{8}{subsection.2.6}
+\contentsline {subsection}{\numberline {1.9}Direct Form 2 Realization of the Discrete Filter}{6}{subsection.1.9}
+\contentsline {subsection}{\numberline {1.10}FIR Filter Transfer Function to get the same specifications}{7}{subsection.1.10}
+\contentsline {section}{\numberline {2}Second Filter Specifications}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Un-normalized Discrete Time Filter Specifications}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Normalized Digital Filter Specifications}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Analog Filter Specifications}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Frequency transformation to be employed}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Frequency transformed lowpass analog filter specifications}{10}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}The analog Low pass Transfer Function}{10}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}The Analog BandStop Transfer Function}{10}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}The Discrete Time Filter Transfer Function}{11}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Direct Form 2 Realization of the Discrete Filter}{13}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}FIR Filter Transfer Function to get the same specifications}{14}{subsection.2.10}

@@ -43,8 +43,15 @@
     "fig:6"
     "fig:7"
     "fig:8"
+    "fig:9"
     "eq:3"
-    "eq:4")
+    "eq:4"
+    "fig:10"
+    "fig:11"
+    "fig:12"
+    "fig:13"
+    "fig:14"
+    "fig:15")
    (LaTeX-add-bibliographies
     "ref"))
  :latex)

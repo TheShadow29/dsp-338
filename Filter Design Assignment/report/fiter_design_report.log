@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.11)  11 APR 2017 08:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.11)  11 APR 2017 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -635,7 +635,23 @@ No file fiter_design_report.bbl.
 LaTeX Warning: Unused global option(s):
     [22pt].
 
-(./fiter_design_report.aux)
+(./fiter_design_report.aux
+
+LaTeX Warning: Label `fig:7' multiply defined.
+
+
+LaTeX Warning: Label `fig:9' multiply defined.
+
+
+LaTeX Warning: Label `fig:7' multiply defined.
+
+
+LaTeX Warning: Label `fig:8' multiply defined.
+
+
+LaTeX Warning: Label `fig:9' multiply defined.
+
+)
 \openout1 = `fiter_design_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -752,7 +768,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
-<images/Analog_but_lp_tf.png, id=105, 1150.2975pt x 126.4725pt>
+<images/Analog_but_lp_tf.png, id=125, 1150.2975pt x 126.4725pt>
 File: images/Analog_but_lp_tf.png Graphic file (type png)
 
 <use images/Analog_but_lp_tf.png>
@@ -763,7 +779,7 @@ Overfull \hbox (83.64874pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
-<images/Bodeplot_but_lp.png, id=106, 979.40906pt x 518.6878pt>
+<images/Bodeplot_but_lp.png, id=126, 979.40906pt x 518.6878pt>
 File: images/Bodeplot_but_lp.png Graphic file (type png)
 
 <use images/Bodeplot_but_lp.png>
@@ -774,7 +790,7 @@ Overfull \hbox (71.44965pt too wide) in paragraph at lines 87--88
  [][] 
  []
 
-[2] <images/Analog_but_bp_tf.png, id=120, 1285.80376pt x 273.02pt>
+[2] <images/Analog_but_bp_tf.png, id=140, 1285.80376pt x 273.02pt>
 File: images/Analog_but_bp_tf.png Graphic file (type png)
 
 <use images/Analog_but_bp_tf.png>
@@ -785,7 +801,7 @@ Overfull \hbox (83.6394pt too wide) in paragraph at lines 95--96
  [][] 
  []
 
-<images/Bodeplot_but_bp.png, id=121, 979.40906pt x 518.6878pt>
+<images/Bodeplot_but_bp.png, id=141, 979.40906pt x 518.6878pt>
 File: images/Bodeplot_but_bp.png Graphic file (type png)
 
 <use images/Bodeplot_but_bp.png>
@@ -798,7 +814,7 @@ Overfull \hbox (71.44965pt too wide) in paragraph at lines 101--102
 
 [3 <./images/Analog_but_lp_tf.png> <./images/Bodeplot_but_lp.png (PNG copy)> <.
 /images/Analog_but_bp_tf.png>]
-<images/Discrete_bp_tf.png, id=129, 1134.2375pt x 383.4325pt>
+<images/Discrete_bp_tf.png, id=149, 1134.2375pt x 383.4325pt>
 File: images/Discrete_bp_tf.png Graphic file (type png)
 
 <use images/Discrete_bp_tf.png>
@@ -809,7 +825,7 @@ Overfull \hbox (83.65073pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
-<images/Freqz_digital_bp.png, id=130, 979.40906pt x 518.6878pt>
+<images/Freqz_digital_bp.png, id=150, 979.40906pt x 518.6878pt>
 File: images/Freqz_digital_bp.png Graphic file (type png)
 
 <use images/Freqz_digital_bp.png>
@@ -821,24 +837,19 @@ Overfull \hbox (71.44965pt too wide) in paragraph at lines 115--116
  []
 
 [4 <./images/Bodeplot_but_bp.png (PNG copy)> <./images/Discrete_bp_tf.png>]
-<images/Band_pass_fir_order_59.png, id=137, 979.40906pt x 518.6878pt>
+<images/direct_form2_bp.png, id=157, 1090.0725pt x 3401.70876pt>
+File: images/direct_form2_bp.png Graphic file (type png)
+
+<use images/direct_form2_bp.png>
+Package pdftex.def Info: images/direct_form2_bp.png used on input line 124.
+(pdftex.def)             Requested size: 207.11592pt x 646.33139pt.
+ [5 <./images/Freqz_digital_bp.png (PNG copy)>] [6 <./images/direct_form2_bp.pn
+g (PNG copy)>]
+<images/Band_pass_fir_order_59.png, id=169, 979.40906pt x 518.6878pt>
 File: images/Band_pass_fir_order_59.png Graphic file (type png)
 
 <use images/Band_pass_fir_order_59.png>
 Package pdftex.def Info: images/Band_pass_fir_order_59.png used on input line 1
-31.
-(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
-
-Overfull \hbox (71.44965pt too wide) in paragraph at lines 131--132
- [][] 
- []
-
-[5 <./images/Freqz_digital_bp.png (PNG copy)>]
-<images/Band_pass_fir_order_63.png, id=143, 979.40906pt x 518.6878pt>
-File: images/Band_pass_fir_order_63.png Graphic file (type png)
-
-<use images/Band_pass_fir_order_63.png>
-Package pdftex.def Info: images/Band_pass_fir_order_63.png used on input line 1
 39.
 (pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
 
@@ -846,8 +857,27 @@ Overfull \hbox (71.44965pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
+<images/Band_pass_fir_order_63.png, id=170, 979.40906pt x 518.6878pt>
+File: images/Band_pass_fir_order_63.png Graphic file (type png)
 
-Overfull \hbox (24.51166pt too wide) in paragraph at lines 144--145
+<use images/Band_pass_fir_order_63.png>
+Package pdftex.def Info: images/Band_pass_fir_order_63.png used on input line 1
+47.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+[7 <./images/Band_pass_fir_order_59.png (PNG copy)>]
+<images/FIR_bp_freqz.png, id=177, 421.575pt x 316.18124pt>
+File: images/FIR_bp_freqz.png Graphic file (type png)
+
+<use images/FIR_bp_freqz.png>
+Package pdftex.def Info: images/FIR_bp_freqz.png used on input line 155.
+(pdftex.def)             Requested size: 316.18047pt x 237.13535pt.
+
+Overfull \hbox (24.51166pt too wide) in paragraph at lines 160--161
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020437\OML/cmm/m/it/10 z[] 
 \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020753\OML/cmm/m/it/10 z[
 ] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0006074\OML/cmm/m/it/10 
@@ -859,7 +889,7 @@ z[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (1.73381pt too wide) in paragraph at lines 144--145
+Overfull \hbox (1.73381pt too wide) in paragraph at lines 160--161
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0039434\OML/cmm/m/it/10 z[] 
 \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0080615\OML/cmm/m/it/10 z[
 ] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010683\OML/cmm/m/it/10 z
@@ -870,7 +900,7 @@ z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0055652\OML/cmm/m/it/1
  []
 
 
-Overfull \hbox (22.84499pt too wide) in paragraph at lines 144--145
+Overfull \hbox (22.84499pt too wide) in paragraph at lines 160--161
 \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010166\O
 ML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/
 cmm/m/it/10 :\OT1/cmr/m/n/10 016293\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/
@@ -883,7 +913,7 @@ m/it/10 z[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (22.28943pt too wide) in paragraph at lines 144--145
+Overfull \hbox (22.28943pt too wide) in paragraph at lines 160--161
 \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0040068\
 OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML
 /cmm/m/it/10 :\OT1/cmr/m/n/10 0023031\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\O
@@ -895,7 +925,7 @@ ML/cmm/m/it/10 :\OT1/cmr/m/n/10 0011925\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0
  []
 
 
-Overfull \hbox (12.84496pt too wide) in paragraph at lines 144--145
+Overfull \hbox (12.84496pt too wide) in paragraph at lines 160--161
 \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 013846\O
 ML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/
 cmm/m/it/10 :\OT1/cmr/m/n/10 022858\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/
@@ -908,7 +938,7 @@ it/10 z[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (5.0012pt too wide) in paragraph at lines 144--145
+Overfull \hbox (5.0012pt too wide) in paragraph at lines 160--161
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0020437\OML/cmm/m/it/10 z[] 
 \OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5549\OML/cmm/m/it/10 e \OM
 S/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 17\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS
@@ -920,31 +950,214 @@ sy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0090412\OML/cmm
 it/10 :\OT1/cmr/m/n/10 0083073\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
  []
 
-[6 <./images/Band_pass_fir_order_59.png (PNG copy)> <./images/Band_pass_fir_ord
-er_63.png (PNG copy)>] [7]
-Overfull \hbox (148.42715pt too wide) detected at line 192
-\OML/cmm/m/it/10 H[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 ) = []
+[8 <./images/Band_pass_fir_order_63.png (PNG copy)> <./images/FIR_bp_freqz.png 
+(PNG copy)>] [9]
+<images/Analog_cheb_lp_tf.png, id=192, 438.63875pt x 135.50626pt>
+File: images/Analog_cheb_lp_tf.png Graphic file (type png)
 
+<use images/Analog_cheb_lp_tf.png>
+Package pdftex.def Info: images/Analog_cheb_lp_tf.png used on input line 208.
+(pdftex.def)             Requested size: 276.3171pt x 85.35826pt.
+
+<images/Bodeplot_cheb_lp.png, id=193, 979.40906pt x 518.6878pt>
+File: images/Bodeplot_cheb_lp.png Graphic file (type png)
+
+<use images/Bodeplot_cheb_lp.png>
+Package pdftex.def Info: images/Bodeplot_cheb_lp.png used on input line 214.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 214--215
+ [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+<images/Analog_cheb_bs_tf.png, id=194, 959.585pt x 133.49875pt>
+File: images/Analog_cheb_bs_tf.png Graphic file (type png)
+
+<use images/Analog_cheb_bs_tf.png>
+Package pdftex.def Info: images/Analog_cheb_bs_tf.png used on input line 222.
+(pdftex.def)             Requested size: 501.90085pt x 85.36148pt.
+
+Overfull \hbox (83.64717pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
+<images/Bodeplot_cheb_bs.png, id=195, 979.40906pt x 518.6878pt>
+File: images/Bodeplot_cheb_bs.png Graphic file (type png)
+
+<use images/Bodeplot_cheb_bs.png>
+Package pdftex.def Info: images/Bodeplot_cheb_bs.png used on input line 228.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 228--229
+ [][] 
+ []
+
+[10 <./images/Analog_cheb_lp_tf.png> <./images/Bodeplot_cheb_lp.png (PNG copy)>
+ <./images/Analog_cheb_bs_tf.png>]
+<images/Discrete_bs_tf.png, id=203, 916.42375pt x 146.5475pt>
+File: images/Discrete_bs_tf.png Graphic file (type png)
+
+<use images/Discrete_bs_tf.png>
+Package pdftex.def Info: images/Discrete_bs_tf.png used on input line 236.
+(pdftex.def)             Requested size: 501.90913pt x 85.3576pt.
+
+Overfull \hbox (83.65546pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+<images/Freqz_digital_bs.png, id=204, 979.40906pt x 518.6878pt>
+File: images/Freqz_digital_bs.png Graphic file (type png)
+
+<use images/Freqz_digital_bs.png>
+Package pdftex.def Info: images/Freqz_digital_bs.png used on input line 242.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 242--243
+ [][] 
+ []
+
+[11 <./images/Bodeplot_cheb_bs.png (PNG copy)> <./images/Discrete_bs_tf.png>]
+<images/direct_form2_bs.png, id=211, 1090.0725pt x 1318.9275pt>
+File: images/direct_form2_bs.png Graphic file (type png)
+
+<use images/direct_form2_bs.png>
+Package pdftex.def Info: images/direct_form2_bs.png used on input line 251.
+(pdftex.def)             Requested size: 327.02428pt x 395.6813pt.
+ [12 <./images/Freqz_digital_bs.png (PNG copy)>] [13 <./images/direct_form2_bs.
+png (PNG copy)>]
+<images/Band_stop_fir_order_38.png, id=223, 979.40906pt x 518.6878pt>
+File: images/Band_stop_fir_order_38.png Graphic file (type png)
+
+<use images/Band_stop_fir_order_38.png>
+Package pdftex.def Info: images/Band_stop_fir_order_38.png used on input line 2
+66.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 266--267
+ [][] 
+ []
+
+<images/Band_stop_fir_order_39.png, id=224, 979.40906pt x 518.6878pt>
+File: images/Band_stop_fir_order_39.png Graphic file (type png)
+
+<use images/Band_stop_fir_order_39.png>
+Package pdftex.def Info: images/Band_stop_fir_order_39.png used on input line 2
+74.
+(pdftex.def)             Requested size: 489.70332pt x 259.34326pt.
+
+Overfull \hbox (71.44965pt too wide) in paragraph at lines 274--275
+ [][] 
+ []
+
+[14 <./images/Band_stop_fir_order_38.png (PNG copy)>]
+<images/FIR_bs_freqz.png, id=230, 421.575pt x 316.18124pt>
+File: images/FIR_bs_freqz.png Graphic file (type png)
+
+<use images/FIR_bs_freqz.png>
+Package pdftex.def Info: images/FIR_bs_freqz.png used on input line 283.
+(pdftex.def)             Requested size: 316.18047pt x 237.13535pt.
+
+Overfull \hbox (2.28937pt too wide) in paragraph at lines 289--290
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 018492\O
+ML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/
+cmm/m/it/10 :\OT1/cmr/m/n/10 013424\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/
+cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 002553\OML/cm
+m/m/it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0092892\OML/
+cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 016789\OML
+/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 016869\OM
+L/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (35.06725pt too wide) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010236\OML/cmm/m/it/10 z[] \
+OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00087022\OML/cmm/m/it/10 z[
+] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1
+/cmr/m/n/10 0062943\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\
+OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0081842\OML/cmm/m/it/10 z[] \
+OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cm
+r/m/n/10 0052796\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1
+/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0011458\OML/cmm/m/it/10 z[] \OT1
+/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (17.25467pt too wide) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 081643\OML/cmm/m/it/10 z[] \
+OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 070893\OML/cmm/m/it/10 z[] 
+\OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 030086\OML/cmm/m/it/10 z[]
+ \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/
+cmr/m/n/10 024772\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT
+1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 070945\OML/cmm/m/it/10 z[] \OT1
+/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 91111\OML/cmm/m/it/10 z[] \OT1
+/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m
+/n/10 070945\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (17.69917pt too wide) in paragraph at lines 289--290
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 058952\O
+ML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/
+cmm/m/it/10 :\OT1/cmr/m/n/10 062085\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/
+cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 041041\OML/cm
+m/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m
+/it/10 :\OT1/cmr/m/n/10 0077075\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm
+/m/it/10 :\OT1/cmr/m/n/10 0226\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm/
+m/it/10 :\OT1/cmr/m/n/10 038273\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + 0\OML/cmm
+/m/it/10 :\OT1/cmr/m/n/10 035952\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (17.77902pt too wide) in paragraph at lines 289--290
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4092\OML
+/cmm/m/it/10 e \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 05\OML/cmm/m/it/10 z[] \OT1
+/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m
+/n/10 0011458\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cm
+r/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0052796\OML/cmm/m/it/10 z[] \OT1/cm
+r/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/
+10 0081842\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m
+/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0062943\OML/cmm/m/it/10 z[] \OT1/cmr/m
+/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00087022\OML/cmm/m/it/10 z[] \OT1/cm
+r/m/n/10 +
+ []
+
+
+Overfull \hbox (23.90753pt too wide) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 010236\OML/cmm/m/it/10 z[] \
+OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 016869\OML/cmm/m/it/10 z[] 
+\OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 016789\OML/cmm/m/it/10 z[]
+ \OT1/cmr/m/n/10 + 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0092892\OML/cmm/m/it/10 z
+[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT
+1/cmr/m/n/10 002553\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\
+OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 013424\OML/cmm/m/it/10 z[] \O
+T1/cmr/m/n/10 + \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr
+/m/n/10 018492\OML/cmm/m/it/10 z[] \OT1/cmr/m/n/10 +
+ []
+
+[15 <./images/Band_stop_fir_order_39.png (PNG copy)> <./images/FIR_bs_freqz.png
+ (PNG copy)>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
  (./fiter_design_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
 Package rerunfilecheck Info: File `fiter_design_report.out' has not changed.
-(rerunfilecheck)             Checksum: 3ECCC7AB1238D5382C33C253CD75D4DA;1608.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+(rerunfilecheck)             Checksum: 3BC46D157777BB0150A5051106FE737B;1995.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
  ) 
 Here is how much of TeX's memory you used:
- 8997 strings out of 493029
- 133108 string characters out of 6136234
- 235669 words of memory out of 5000000
- 12387 multiletter control sequences out of 15000+600000
+ 9092 strings out of 493029
+ 135318 string characters out of 6136234
+ 236257 words of memory out of 5000000
+ 12446 multiletter control sequences out of 15000+600000
  9629 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,7n,39p,2126b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,39p,2126b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -957,10 +1170,10 @@ amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 
-Output written on fiter_design_report.pdf (8 pages, 276946 bytes).
+Output written on fiter_design_report.pdf (16 pages, 668523 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
